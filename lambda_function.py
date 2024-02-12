@@ -1,4 +1,5 @@
 # Lambda function used by the API Gateway
+
 import json, os, traceback, logging
 from urllib import request
 from urllib.parse import urlencode
