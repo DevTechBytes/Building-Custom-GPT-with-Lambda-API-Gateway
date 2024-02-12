@@ -1,0 +1,62 @@
+openapi: 3.0.1
+info:
+    title: VideoSearchAPI
+    version: "2024-01-18T23:14:18Z"
+servers:
+    - url: https://pjhvmova5k.execute-api.us-east-2.amazonaws.com/v1
+paths:
+    /video:
+        get:
+            summary: Get royality free videos
+            operationId: getVideos
+            description: Should return a list of video URLs
+            parameters:
+                - name: query
+                  in: query
+                  required: true
+                  description: Search for royality free videos from Pixabay
+                  schema:
+                      type: string
+                - name: limit
+                  in: query
+                  description: How many videos to return at one time (default 3)
+                  required: false
+                  schema:
+                      type: integer
+                      maximum: 25
+                      format: int32
+            responses:
+                "200":
+                    description: 200 response
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/Videos"
+components:
+    schemas:
+        Videos:
+            type: array
+            items:
+                type: object
+                required:
+                    - tags
+                    - duration
+                    - pageURL
+                    - likes
+                    - views
+                    - downloads
+                properties:
+                    tags:
+                        type: string
+                    duration:
+                        type: string
+                    pageURL:
+                        type: string
+                    views:
+                        type: integer
+                    likes:
+                        type: integer
+                    comments:
+                        type: integer
+                    downloads:
+                        type: integer
