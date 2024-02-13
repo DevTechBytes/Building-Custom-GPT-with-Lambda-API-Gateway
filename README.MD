@@ -1,6 +1,6 @@
 # Building a Custom GPT with AWS Lambda and AWS API Gateway
 
-This repo is a companion to the DevTechBytes video **<a href="https://youtu.be/kbucrWmltRc" target="_blank">How to Build a Custom GPT With AWS Lambda and API Gateway</a>**
+This repo is a companion to the DevTechBytes video **<a href="https://youtu.be/hfuelfTu1qU" target="_blank">How to Build a Custom GPT With AWS Lambda and API Gateway</a>**
 
 ### Custom_GPT_Instructions.txt
 
@@ -14,4 +14,4 @@ This repo is a companion to the DevTechBytes video **<a href="https://youtu.be/k
 
 -   This file contains the schema for your custom GPT.
 
-Refer to this **<a href="https://youtu.be/kbucrWmltRc" target="\_blank"> YouTube video</a>** for how to deploy your own custom GPT with custom actions.
+Refer to this **<a href="https://youtu.be/hfuelfTu1qU" target="\_blank"> YouTube video</a>** for how to deploy your own custom GPT with custom actions.
