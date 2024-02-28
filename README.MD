@@ -4,15 +4,15 @@ This repo is a companion to the DevTechBytes video **<a href="https://youtu.be/h
 
 -   [DevTechBytes YouTube channel](https://youtu.be/12zZlN4VUJQ)
 
-### Custom_GPT_Instructions.txt
+## Custom_GPT_Instructions.txt
 
 -   This file contains the instructions for your custom GPT.
 
-### lambda_function.py
+## lambda_function.py
 
 -   This file contains the code for your lambda function that is used by AWS API Gateway.
 
-### schema.yml
+## schema.yml
 
 -   This file contains the schema for your custom GPT.
 
